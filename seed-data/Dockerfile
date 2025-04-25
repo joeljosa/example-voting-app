@@ -6,7 +6,7 @@ RUN apt-get update \
     apache2-utils \
     && rm -rf /var/lib/apt/lists/*
 
-WORKDIR /seed
+WORKDIR /seed-data
 
 COPY . .
 
